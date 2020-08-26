@@ -33,6 +33,8 @@ The application offers 4 main screens.
 - Track screen
 - Hunting screen
 
+![Screens](/docs/CaptureActivities.png)
+
 ### 1.4 Question types
 The application has 6 different types of questions:
 - single choice question with buttons
@@ -42,6 +44,7 @@ The application has 6 different types of questions:
 - single choice question with image to click
 - multiple choice question with  images to click
 
+![Question Types](/docs/CaptureQuestions.png)
 
 ## 2. Developer Guide
 
@@ -69,6 +72,8 @@ The application uses the sensors (accelerometer, magnetometer) to know the orien
 Therefore, the activity implements the SensorEventListener and LocationListener interfaces.
 
 ### 2.2 Data Model
+
+![Data Model](/docs/CaptureDataModel.png)
 
 #### 2.2.1 Track
 
