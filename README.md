@@ -1,12 +1,12 @@
 # Treasure Hunt App
 
-## 1. User Guide
-
-This user guide describes the application, its main functionalities and use case.
-
 - Programming language: **Java**
 - Integrated development environment (IDE): **Android Studio**
 - Intended platforms: **Android phones**
+
+## 1. User Guide
+
+This user guide describes the application, its main functionalities and use case.
 
 ### 1.1 Description of the Application
 The application is a simple virtual treasure hunting game. It uses the phone's location services, sensors, the rear camera of the phone and touchscreen to allow the player to virtually search real places where the treasures are.
@@ -112,9 +112,9 @@ etc.), the app uses other functionalities
 ##### 2.4.1.1 SharedPreferences
 
 To allow advancement in the game, the following data is recorded in the SharedPreferences:
-• SESSION_MILESTONE_ID = Stores the ID of the current Milestone
-• SESSION_PASSED_MILESTONE = Stores the list of ids of past Milestones
-• SESSION_FOUND_TREASURES = Stores the list of ids of the Treasures found
+- SESSION_MILESTONE_ID = Stores the ID of the current Milestone
+- SESSION_PASSED_MILESTONE = Stores the list of ids of past Milestones
+- SESSION_FOUND_TREASURES = Stores the list of ids of the Treasures found
 
 ##### 2.4.1.2 Gson
 
@@ -132,7 +132,7 @@ The Google Maps API was chosen for better integration of map management and mark
 
 It was used to embed a small database for the game. The DatabaseFiller class creates the database and populates it with pre-recorded data. The DatabaseAccess class allows to make requests to read the contents of the database.
 
-##### 2.4.2 Layouts
+#### 2.4.2 Layouts
 
 Different layouts were defined by type of question. They are called directly by QuestionActivity activity:
 - the abstract class AbstractQuestionLayout extends LinearLayout. It initializes the view.
@@ -140,7 +140,7 @@ Different layouts were defined by type of question. They are called directly by 
 - The InputQuestionLayout class extends AbstractQuestionLayout. It adds a free input and space to display the answers entered. It contains a Listener to add / remove inputs.
 - The VisualQuestionLayout class extends AbstractQuestionLayout It calculates the position of the areas that are clickable. It contains a Listener to select / deselect areas.
 
-##### 2.4.3 Resources
+#### 2.4.3 Resources
 
 In addition to the classic resources such as images, ids or pre-defined character strings, the standard buttons have been redefined via XML files to allow a new behavior, i.e. a button remains pressed when it is pressed (useful for
 multiple choice questions in particular).
