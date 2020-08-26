@@ -142,5 +142,4 @@ Different layouts were defined by type of question. They are called directly by 
 
 #### 2.4.3 Resources
 
-In addition to the classic resources such as images, ids or pre-defined character strings, the standard buttons have been redefined via XML files to allow a new behavior, i.e. a button remains pressed when it is pressed (useful for
-multiple choice questions in particular).
+In addition to the classic resources such as images, ids or pre-defined character strings, the standard buttons have been redefined via XML files to allow a new behavior, i.e. a button remains pressed when it is pressed (useful for multiple choice questions in particular).
