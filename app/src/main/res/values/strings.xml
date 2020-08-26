@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Treasure Hunt App</string>
+    <string name="introduction">Welcome to the Treasure Hunt App.</string>
+    <string name="play">Start the hunt!</string>
+    <string name="reset">Reset the hunt</string>
+    <string name="submit">Validate</string>
+    <string name="found_treasures">Treasures found :</string>
+    <string name="no_treasures_found">None!</string>
+    <string name="click_on_marker">Click on a marker to play.</string>
+    <string name="go_to_question">Go to the place</string>
+    <string name="question">Question</string>
+    <string name="ok">OK</string>
+    <string name="try_again">Try again!</string>
+    <string name="well_done">Congratulations!</string>
+    <string name="you_found">You found</string>
+    <string name="google_maps_key"></string>
+</resources>
