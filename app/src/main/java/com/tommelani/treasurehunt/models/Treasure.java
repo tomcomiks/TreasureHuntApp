@@ -7,11 +7,11 @@ import com.google.android.gms.maps.model.LatLng;
  */
 public class Treasure {
 
-    private long id;
-    private String title;
-    private LatLng position;
-    private int imageId;
-    private Milestone milestone;
+    private long id; //Unique identifier
+    private String title; //Title
+    private LatLng position; //Position on the map
+    private int imageId; //Image Id
+    private Milestone milestone; //Related milestone
 
 
     public Milestone getMilestone() {

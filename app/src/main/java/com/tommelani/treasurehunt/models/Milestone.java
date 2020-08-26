@@ -7,11 +7,11 @@ import com.google.android.gms.maps.model.LatLng;
  */
 public class Milestone {
 
-    private long id;
-    private String title;
-    private String description;
-    private Track track;
-    private LatLng position;
+    private long id; //Unique identifier
+    private String title; //Title
+    private String description; //Description
+    private Track track; //Related track
+    private LatLng position; //Position on the map
 
     @Override
     public String toString() {

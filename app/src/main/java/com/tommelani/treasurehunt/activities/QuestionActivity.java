@@ -20,6 +20,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * This activity manages the questions displayed to the user.
  * The question database is managed locally on the phone.
  */
 public class QuestionActivity extends Activity {

@@ -5,8 +5,8 @@ package com.tommelani.treasurehunt.models;
  */
 public class Track {
 
-    private long id;
-    private String title;
+    private long id; //Unique identifier
+    private String title; //Title
 
     public Track() {
 

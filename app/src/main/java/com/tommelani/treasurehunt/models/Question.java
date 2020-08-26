@@ -11,17 +11,16 @@ import java.util.Set;
 public class Question {
 
     public enum ChoiceType {MULTIPLE_CHOICE, SINGLE_CHOICE}
-
     public enum TypeQuestion {BUTTON, VISUAL, FREE_INPUT}
 
-    private long id;
-    private Milestone milestone;
-    private String title;
-    private int imageId;
-    private Set<Integer> answerSet;
-    private List<Object> choiceList;
-    private ChoiceType choiceType;
-    private TypeQuestion questionType;
+    private long id; //Unique identifier
+    private Milestone milestone; //Related milestone
+    private String title; //Title
+    private int imageId; //Image Id
+    private Set<Integer> answerSet; //Unordered set of answers
+    private List<Object> choiceList; //Ordered list of choices
+    private ChoiceType choiceType; //Type of choice (multiple or single)
+    private TypeQuestion questionType; //Type of question (with buttons, image or free input)
 
     public Question() {
     }

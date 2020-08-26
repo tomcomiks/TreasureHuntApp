@@ -12,8 +12,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 /**
- * This view defines the display of the camera view in the HuntActivity activity.
- * It extends SurfaceView and implants SurfaceHolder.Callback.
+ * This view defines the display of the camera view in the HuntActivity activity. It extends SurfaceView and implements SurfaceHolder.Callback.
  */
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
 
